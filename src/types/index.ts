@@ -1,4 +1,4 @@
-export type Category = '全部' | '生活用品' | '美容美妝' | '零食' | '保健' | '瘦身' | '寵物' | '親子'
+export type Category = '全部' | '瘦身必瘦專區' | '全民健康專區' | '生活百貨' | '限時優惠活動' | '萌寵樂園' | '里民福利特區'
 
 export interface Product {
   id: string

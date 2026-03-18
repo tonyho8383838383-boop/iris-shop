@@ -7,7 +7,7 @@ export const mockProducts: Product[] = [
     description: '富含天然蘆薈精華，深層保濕，滋潤不黏膩，適合各種膚質使用。',
     price: 299,
     original_price: 399,
-    category: '美容美妝',
+    category: '瘦身必瘦專區',
     images: [
       'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600&q=80',
     ],
@@ -21,7 +21,7 @@ export const mockProducts: Product[] = [
     description: '日本進口膠原蛋白，每瓶含10000mg膠原蛋白，每天一瓶，喝出好膚質。',
     price: 599,
     original_price: 799,
-    category: '保健',
+    category: '全民健康專區',
     images: [
       'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=600&q=80',
     ],
@@ -35,7 +35,7 @@ export const mockProducts: Product[] = [
     description: '韓國直送，香辣Q彈，一打開就是道地韓國街頭味，微辣口味男女老少都愛！',
     price: 149,
     original_price: 199,
-    category: '零食',
+    category: '限時優惠活動',
     images: [
       'https://images.unsplash.com/photo-1635363638580-c2809d049eee?w=600&q=80',
     ],
@@ -47,7 +47,7 @@ export const mockProducts: Product[] = [
     name: '多功能收納掛鉤（6入）',
     description: '免釘牆面無痕掛鉤，可承重5kg，防水防油，廚房浴室通用，整理必備！',
     price: 199,
-    category: '生活用品',
+    category: '生活百貨',
     images: [
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
     ],
@@ -60,7 +60,7 @@ export const mockProducts: Product[] = [
     description: '高濃度玻尿酸，三層保濕鎖水，讓你的肌膚水潤透亮一整天。',
     price: 450,
     original_price: 580,
-    category: '美容美妝',
+    category: '瘦身必瘦專區',
     images: [
       'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80',
     ],
@@ -73,7 +73,7 @@ export const mockProducts: Product[] = [
     name: '維生素C發泡錠',
     description: '每錠含1000mg高劑量維生素C，加入水中發泡，酸甜好喝，增強免疫力。',
     price: 380,
-    category: '保健',
+    category: '全民健康專區',
     images: [
       'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80',
     ],
@@ -86,7 +86,7 @@ export const mockProducts: Product[] = [
     description: '北海道直送，入口即化，濃郁奶香，伴手禮首選，限量販售中！',
     price: 280,
     original_price: 320,
-    category: '零食',
+    category: '限時優惠活動',
     images: [
       'https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=600&q=80',
     ],
@@ -99,7 +99,7 @@ export const mockProducts: Product[] = [
     description: '天然矽藻土材質，超強吸水，踩上即乾，抑菌防霉，浴室必備好物。',
     price: 599,
     original_price: 799,
-    category: '生活用品',
+    category: '生活百貨',
     images: [
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80',
     ],

@@ -32,13 +32,12 @@ const banners = [
 ]
 
 const categories: { name: Category | '全部'; icon: string; href: string }[] = [
-  { name: '生活用品', icon: '🏠', href: '/products?category=生活用品' },
-  { name: '美容美妝', icon: '💄', href: '/products?category=美容美妝' },
-  { name: '零食', icon: '🍜', href: '/products?category=零食' },
-  { name: '保健', icon: '💊', href: '/products?category=保健' },
-  { name: '瘦身', icon: '🏃', href: '/products?category=瘦身' },
-  { name: '寵物', icon: '🐾', href: '/products?category=寵物' },
-  { name: '親子', icon: '👨‍👩‍👧', href: '/products?category=親子' },
+  { name: '瘦身必瘦專區', icon: '🏃', href: '/products?category=瘦身必瘦專區' },
+  { name: '全民健康專區', icon: '💊', href: '/products?category=全民健康專區' },
+  { name: '生活百貨', icon: '🏠', href: '/products?category=生活百貨' },
+  { name: '限時優惠活動', icon: '🔥', href: '/products?category=限時優惠活動' },
+  { name: '萌寵樂園', icon: '🐾', href: '/products?category=萌寵樂園' },
+  { name: '里民福利特區', icon: '🎁', href: '/products?category=里民福利特區' },
 ]
 
 export default function HomePage() {
@@ -101,7 +100,7 @@ export default function HomePage() {
       {/* Categories */}
       <section className="mb-10">
         <h2 className="text-lg font-bold text-gray-800 mb-4">商品分類</h2>
-        <div className="grid grid-cols-4 sm:grid-cols-7 gap-3">
+        <div className="grid grid-cols-3 sm:grid-cols-6 gap-3">
           {categories.map(cat => (
             <Link
               key={cat.name}

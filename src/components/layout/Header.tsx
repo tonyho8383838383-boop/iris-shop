@@ -18,16 +18,15 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+        <nav className="hidden md:flex items-center gap-4 text-sm font-medium text-gray-600">
           <Link href="/" className="hover:text-orange-600 transition-colors">首頁</Link>
           <Link href="/products" className="hover:text-orange-600 transition-colors">全部商品</Link>
-          <Link href="/products?category=生活用品" className="hover:text-orange-600 transition-colors">生活用品</Link>
-          <Link href="/products?category=美容美妝" className="hover:text-orange-600 transition-colors">美容美妝</Link>
-          <Link href="/products?category=零食" className="hover:text-orange-600 transition-colors">零食</Link>
-          <Link href="/products?category=保健" className="hover:text-orange-600 transition-colors">保健</Link>
-          <Link href="/products?category=瘦身" className="hover:text-orange-600 transition-colors">瘦身</Link>
-          <Link href="/products?category=寵物" className="hover:text-orange-600 transition-colors">寵物</Link>
-          <Link href="/products?category=親子" className="hover:text-orange-600 transition-colors">親子</Link>
+          <Link href="/products?category=瘦身必瘦專區" className="hover:text-orange-600 transition-colors">瘦身必瘦</Link>
+          <Link href="/products?category=全民健康專區" className="hover:text-orange-600 transition-colors">全民健康</Link>
+          <Link href="/products?category=生活百貨" className="hover:text-orange-600 transition-colors">生活百貨</Link>
+          <Link href="/products?category=限時優惠活動" className="hover:text-orange-600 transition-colors">限時優惠</Link>
+          <Link href="/products?category=萌寵樂園" className="hover:text-orange-600 transition-colors">萌寵樂園</Link>
+          <Link href="/products?category=里民福利特區" className="hover:text-orange-600 transition-colors">里民福利</Link>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -53,13 +52,12 @@ export default function Header() {
         <div className="md:hidden bg-white border-t border-orange-100 px-4 py-4 flex flex-col gap-4 text-sm font-medium text-gray-700">
           <Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">首頁</Link>
           <Link href="/products" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">全部商品</Link>
-          <Link href="/products?category=生活用品" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">生活用品</Link>
-          <Link href="/products?category=美容美妝" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">美容美妝</Link>
-          <Link href="/products?category=零食" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">零食</Link>
-          <Link href="/products?category=保健" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">保健</Link>
-          <Link href="/products?category=瘦身" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">瘦身</Link>
-          <Link href="/products?category=寵物" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">寵物</Link>
-          <Link href="/products?category=親子" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">親子</Link>
+          <Link href="/products?category=瘦身必瘦專區" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">瘦身必瘦專區</Link>
+          <Link href="/products?category=全民健康專區" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">全民健康專區</Link>
+          <Link href="/products?category=生活百貨" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">生活百貨</Link>
+          <Link href="/products?category=限時優惠活動" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">限時優惠活動</Link>
+          <Link href="/products?category=萌寵樂園" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">萌寵樂園</Link>
+          <Link href="/products?category=里民福利特區" onClick={() => setMenuOpen(false)} className="hover:text-orange-600">里民福利特區</Link>
         </div>
       )}
     </header>

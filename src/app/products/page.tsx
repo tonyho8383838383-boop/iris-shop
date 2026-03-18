@@ -8,7 +8,7 @@ import ProductCard from '@/components/products/ProductCard'
 import { mockProducts } from '@/lib/mockData'
 import { Category } from '@/types'
 
-const CATEGORIES: (Category | '全部')[] = ['全部', '生活用品', '美容美妝', '零食', '保健', '瘦身', '寵物', '親子']
+const CATEGORIES: (Category | '全部')[] = ['全部', '瘦身必瘦專區', '全民健康專區', '生活百貨', '限時優惠活動', '萌寵樂園', '里民福利特區']
 
 function ProductsContent() {
   const searchParams = useSearchParams()
