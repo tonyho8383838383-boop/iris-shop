@@ -18,7 +18,7 @@ const emptyProduct: Omit<Product, 'id'> = {
   description: '',
   price: 0,
   original_price: undefined,
-  category: '生活用品',
+  category: '生活百貨',
   images: [],
   stock: 0,
   is_active: true,
