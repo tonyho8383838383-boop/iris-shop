@@ -6,7 +6,7 @@ import { Lock, Eye, EyeOff, Store } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 
-const ADMIN_PASSWORD = 'iris2024'
+const ADMIN_PASSWORD = 'iris520'
 
 export default function AdminLoginPage() {
   const router = useRouter()
